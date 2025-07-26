@@ -1,5 +1,4 @@
-function welcome(name:String) {
-    return `Welcome, ${name}!`;
-    
+function welcome(name: String) {
+  return `Welcome, ${name}!`;
 }
-welcome("John");
+welcome('John');
