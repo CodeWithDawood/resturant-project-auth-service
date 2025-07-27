@@ -1,10 +1,3 @@
-function welcome(name: string) {
-  return `Welcome, ${name}!`;
-}
-const user = {
-  name: 'John',
-  age: 30,
-};
-const u1 = user.name;
+import { Config } from './config';
 
-welcome(u1);
+console.log(`Server is running on port: ${Config.PORT}`);

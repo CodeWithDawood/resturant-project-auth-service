@@ -1,7 +1,7 @@
 // @ts-check
 
-import eslint from '@eslint/js'
-import tseslint from 'typescript-eslint'
+import eslint from '@eslint/js';
+import tseslint from 'typescript-eslint';
 
 // /** @type {import("eslint").FlatConfig[]} */
 export default tseslint.config(
@@ -29,9 +29,8 @@ export default tseslint.config(
       },
     },
     rules: {
-    //   'no-console': 'error',
+      //   'no-console': 'error',
       'dot-notation': 'error',
     },
   },
-)
-
+);
