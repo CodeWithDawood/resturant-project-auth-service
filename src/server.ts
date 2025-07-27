@@ -1,4 +1,10 @@
-function welcome(name: String) {
+function welcome(name: string) {
   return `Welcome, ${name}!`;
 }
-welcome('John');
+const user={
+  name: 'John',
+  age: 30
+}
+const u1= user.name;
+
+welcome(u1);
