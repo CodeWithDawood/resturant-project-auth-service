@@ -1,12 +1,10 @@
 import express from 'express';
-import createHttpError, { HttpError } from 'http-errors';
+import { HttpError } from 'http-errors';
 import { Request, Response, NextFunction } from 'express';
 import logger from './config/logger';
 const app = express();
 
 app.get('/', (req, res) => {
-  const err = createHttpError(401, 'you cannot access this resource');
-  throw err;
   res.send('welcome to authenticationnnn service');
 });
 

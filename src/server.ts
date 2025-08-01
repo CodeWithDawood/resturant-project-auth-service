@@ -7,7 +7,7 @@ const startServer = () => {
   try {
     app.listen(PORT, () => {
       logger.error('testing error');
-      logger.info(`Server is running on port: ${PORT}`, { port: PORT });
+      logger.info(`Server is running on  localhost:${PORT}`, { port: PORT });
     });
   } catch (error) {
     console.error('Error starting the server:', error);
